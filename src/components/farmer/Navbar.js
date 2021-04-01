@@ -14,8 +14,8 @@ class Navbar extends Component {
             </Link>
           </li>
           <li>
-            <Link className="link" to="/buyCrops">
-              BUY CROPS
+            <Link className="link" to="/sellCrops">
+              SELL CROPS
             </Link>
           </li>
           <li>

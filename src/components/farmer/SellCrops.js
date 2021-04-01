@@ -1,7 +1,7 @@
 import React from "react";
-import "./buyCrops.css";
+import "./sellCrops.css";
 
-export default class BuyCrops extends React.Component {
+export default class SellCrops extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
