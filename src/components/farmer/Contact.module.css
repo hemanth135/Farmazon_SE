@@ -1,0 +1,115 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.hereto {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 64px;
+  line-height: 87px;
+
+  /* Primary Colors/Tree Brown */
+
+  color: var(--tree-brown);
+}
+
+.help {
+  margin-left: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+  color: var(--black-2);
+  /* Primary Colors/Tree Brown */
+  -webkit-text-stroke: 1px var(--tree-brown);
+}
+
+.heretohelp {
+  display: flex;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainarea {
+  margin-top: 72px;
+  margin-left: 128px;
+}
+
+.talk {
+  /* H1 */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 2px;
+  /* Primary Colors/Tree Brown */
+
+  color: var(--tree-brown);
+}
+
+.share {
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Primary Colors/Tree Brown */
+
+  color: var(--tree-brown);
+}
+
+.feedback {
+  margin-top: 8px;
+  width: 600px;
+  height: 300px;
+  cursor: text;
+  /* Secondary Colors/Black 2 */
+  background: #fafafa;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  padding: 16px;
+  /* Primary Colors/Tree Brown */
+  color: var(--tree-brown);
+  border: 1px solid var(--tree-brown);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.send {
+  margin-top: 16px;
+  width: 300px;
+  height: 64px;
+  cursor: pointer;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  background: var(--tree-brown);
+  color: var(--black-2);
+  /* Primary Colors/Tree Brown */
+
+  border: 1px solid var(--tree-brown);
+  box-sizing: border-box;
+  border-radius: 32px;
+}
+
+.send:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    var(--tree-brown);
+}

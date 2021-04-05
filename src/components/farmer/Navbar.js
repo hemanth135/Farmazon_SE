@@ -9,7 +9,7 @@ class Navbar extends Component {
         <div className="title">Farmazon</div>
         <ul className="menu">
           <li>
-            <Link className="link" to="/">
+            <Link className="link" to="/profile">
               MY PROFILE
             </Link>
           </li>

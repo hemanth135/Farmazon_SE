@@ -49,4 +49,5 @@ li {
 }
 .link:hover {
   color: #4b392f;
+  cursor: pointer;
 }

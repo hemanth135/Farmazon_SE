@@ -172,3 +172,10 @@ textarea {
   /* Secondary Colors/Black 60 */
   color: #666666;
 }
+
+.error-message {
+  padding: 20px;
+  padding-left: 30px;
+  font-size: 18px;
+  height: 20px;
+}
