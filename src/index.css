@@ -1,0 +1,87 @@
+* {
+  /* COLORS */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  --black: #000000;
+  --white: #ffffff;
+  --primary-red: #f44336;
+  --primary-blue: #2196f3;
+  --primary-green: #4caf50;
+  --primary-yellow: #fcaf0a;
+  --tree-green: #73952e;
+  --tree-brown: #4b392f;
+
+  --secondary-red: #fdd9d7;
+  --secondary-blue: #d3eafd;
+  --secondary-green: #dbefdc;
+  --secondary-yellow: #feefce;
+
+  --black-2: #fafafa;
+  --black-10: #e5e5e5;
+  --black-30: #b3b3b3;
+  --black-60: #666666;
+  --black-90: #1e1e1e;
+}
+
+.h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 2px;
+}
+
+.h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  letter-spacing: 1.5px;
+}
+
+.h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+.h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.p1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.p2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.caption {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}

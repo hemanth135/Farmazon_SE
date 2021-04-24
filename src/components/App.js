@@ -8,15 +8,17 @@ import Contact from "../components/farmer/Contact";
 import Profile from "../components/farmer/Profile";
 import SignInCard from "./SignIn/SignInCard";
 import FormSignup from "./form/FormSignup";
+import BuyCrops from "./retailer/BuyCrops";
 class App extends React.Component {
   render() {
     return (
       <Router>
         <div className="App1">
+          <BuyCrops/>
           <Switch>
             <Route exact path="/">
-              <InitNavbar />
-              <SignInCard />
+              {/* <InitNavbar /> */}
+              {/* <SignInCard /> */}
             </Route>
 
             <Route exact path="/signup">

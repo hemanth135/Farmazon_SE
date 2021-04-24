@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="title">Farmazon</div>
+        <div className="farmazon">Farmazon</div>
         <ul className="menu">
           <li>
             <Link className="link" to="/profile">

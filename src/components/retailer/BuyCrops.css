@@ -1,0 +1,33 @@
+.page-rect {
+  display: flex;
+}
+.sidebar {
+  width: 360px;
+  height: 952px;
+  background: var(--tree-brown);
+  display: flex;
+  flex-direction: column;
+  padding: 64px 0px 0px 42px;
+  color: var(--black-2);
+}
+.main-area {
+  width: 1560;
+  height: 952px;
+  display: grid;
+  gap: 64px;
+  margin-left: 72px;
+  margin-top: 72px;
+  grid-template-columns: repeat(4, 300px);
+}
+.amount-range-field {
+    width: 100px;
+    height: 48px;
+    color: var(--black-90);
+    text-align: center;
+    margin-right: 20px;
+}
+
+.amount-range-field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
