@@ -3,14 +3,14 @@
 }
 .sidebar {
   width: 360px;
-  height: 952px;
+  height: auto;
   background: var(--tree-brown);
   display: flex;
   flex-direction: column;
   padding: 64px 0px 0px 42px;
   color: var(--black-2);
 }
-.main-area {
+.crops-area {
   width: 1560;
   height: 952px;
   display: grid;
@@ -30,4 +30,15 @@
 .amount-range-field::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0px;
+}
+
+.search-bar-field {
+    width: 458px;
+    padding: 4px;
+    margin-bottom: 4px;
+    margin-right: 24px;
+    outline: 0px;
+    border: none;
+    border-bottom: 1px solid var(--tree-brown);
+    border-radius: 0px;
 }
