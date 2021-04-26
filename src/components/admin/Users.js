@@ -32,7 +32,7 @@ function Users() {
                     <p className="p2 head no-annoy" style={{left:'1239px', fontWeight:'bold'}}>City</p>
                     <p className="p2 head no-annoy" style={{left:'1429px', fontWeight:'bold'}}>State</p>
                 </div>
-                <div>
+                <div className="rows">
                     {Rowmaker(details)}
                 </div>
             </div>

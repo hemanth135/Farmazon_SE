@@ -6,6 +6,8 @@
     background: var(--black-2);
     border-radius: 8px;
     box-shadow: var(--shadow-large);
+    padding-bottom: 20px;
+    overflow-y: auto;
 }
 
 .header {
@@ -20,4 +22,13 @@
     position: absolute;
     margin-top: 16px;
     color: var(--black-60);
+}
+
+.rows {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.rows::-webkit-scrollbar {
+    display: none;
 }

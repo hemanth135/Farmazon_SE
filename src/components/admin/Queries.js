@@ -21,7 +21,7 @@ function Queries() {
                 <div className="title-wrapper">
                     <p className="p1 no-annoy">Queries</p>
                 </div>
-                <div>
+                <div className="rows">
                     {QueryMaker(details)}
                 </div>
             </div>

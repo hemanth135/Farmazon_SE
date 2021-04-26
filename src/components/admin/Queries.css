@@ -16,6 +16,8 @@
     background: var(--black-2);
     border-radius: 8px;
     box-shadow: var(--shadow-large);
+    padding-bottom: 20px;
+    overflow-y: auto;
 }
 
 .title-wrapper {
@@ -26,4 +28,13 @@
     border-radius: 8px 8px 0px 0px;
     display: flex;
     margin-bottom: 8px;
+}
+
+.rows {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.rows::-webkit-scrollbar {
+    display: none;
 }
