@@ -1,0 +1,29 @@
+.page-rect {
+    width: 1920px;
+    height: 952px;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    align-items: center;
+    justify-content: center;
+}
+
+.queries-wrapper {
+    width: 1600px;
+    height: 831px;
+    display: flex;
+    flex-direction: column;
+    background: var(--black-2);
+    border-radius: 8px;
+    box-shadow: var(--shadow-large);
+}
+
+.title-wrapper {
+    width: 1600px;
+    height: 51px;
+    background: var(--tree-brown);
+    padding: 12px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    margin-bottom: 8px;
+}

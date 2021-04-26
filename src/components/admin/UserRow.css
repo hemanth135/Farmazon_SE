@@ -1,0 +1,8 @@
+.row-rect {
+    height: 56px;
+    background: var(--white);
+    position: relative;
+    border-radius: 8px;
+    margin: 12px 20px;
+    /* box-shadow: var(--shadow-small); */
+}

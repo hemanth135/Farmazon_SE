@@ -9,15 +9,19 @@ import Profile from "../components/farmer/Profile";
 import SignInCard from "./SignIn/SignInCard";
 import FormSignup from "./form/FormSignup";
 import BuyCrops from "./retailer/BuyCrops";
+import Queries from './admin/Queries';
+import Feedback from './admin/Feedback';
+import Users from './admin/Users';
+
 class App extends React.Component {
   render() {
     return (
       <Router>
         <div className="App1">
-          <BuyCrops/>
           <Switch>
             <Route exact path="/">
-              {/* <InitNavbar /> */}
+              <Navbar/>
+              <Users></Users>
               {/* <SignInCard /> */}
             </Route>
 

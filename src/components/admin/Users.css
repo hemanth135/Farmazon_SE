@@ -1,0 +1,23 @@
+.users-wrapper {
+    width: 1600px;
+    height: 831px;
+    display: flex;
+    flex-direction: column;
+    background: var(--black-2);
+    border-radius: 8px;
+    box-shadow: var(--shadow-large);
+}
+
+.header {
+    min-height: 56px;
+    position: relative;
+    border-radius: 8px;
+    margin: 12px 20px;
+    background: inherit;
+}
+
+.head {
+    position: absolute;
+    margin-top: 16px;
+    color: var(--black-60);
+}

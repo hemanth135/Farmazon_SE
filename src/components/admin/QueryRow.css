@@ -1,0 +1,29 @@
+.query-wrapper {
+    width: 1560px;
+    height: 100px;
+    margin: 12px 20px;
+    background: var(--white);
+    border: 0.5px solid var(--black-10);
+    border-radius: 8px;
+    box-shadow: var(--shadow-small);
+    color: var(--black-90);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.vertical-seperator {
+    width: 0px;
+    margin: 8px 0px;
+    border: 0px;
+    border-right: 1px dashed var(--black-10);
+    position: absolute;
+    z-index: 1;
+}
+
+.query-text {
+    width: auto;
+    position: absolute;
+    margin-top: 8px;
+    margin-right: 20px;
+}
